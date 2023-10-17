@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nhalanhdaotuonglai.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Nhà lãnh đạo tương lai</title>
+</head>
+<body>
+    <header class="header">
+
+        <div class="header-1">
+
+            <a href="sunflowerbookly.HTML" class="logo"><i class="fas fa-book"> Sunflower Bookly</i></a>
+
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="Tìm kiếm tại đây..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="" class="fas fa-heart"></a>
+                <a href="" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+
+        </div>
+
+        <div class="header-2">
+
+            <div class="navbar">
+                <a href="#home">Trang chủ</a>
+                <a href="#featured">Sách nổi bật</a>
+                <a href="#arrivals">Hàng mới về</a>
+                <a href="#reviews">reviews</a>
+                <a href="#blogs">blogs</a>
+                <a href="#contactus">Liên hệ</a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <!--------- header section ends ------------>
+
+    <!--------- bottom navbar  ------------>
+
+    <div class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="#reviews" class="fas fa-comments"></a>
+        <a href="#blogs" class="fas fa-app-store"></a>
+        <a href="#contactus" class="fas fa-contactus"></a>
+    </div>
+
+
+    <!-------- bottom navbar start ----------->
+
+    <div class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="#reviews" class="fas fa-comments"></a>
+        <a href="#blogs" class="fas fa-app-store"></a>
+        <a href="#contactus" class="fas fa-contactus"></a>
+    </div>
+
+
+    <!-------- bottom navbar ends ----------->
+
+     <!-------- login form start ----------->
+
+   
+     <div class="login-form-container">
+
+        <div id="close-login-btn" class="fas fa-times"></div>
+
+        <form action="">
+            <h3>Đăng nhập</h3>
+            <span>Email</span>
+            <input type="email" name="" class="box"  placeholder="Hãy nhập Email của bạn">
+            <span>Mật Khẩu</span>
+            <input type="password" name="" class="box"  placeholder="Hãy nhập Mật khẩu của bạn">
+
+            <div class="check-box">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">Nhớ tài khoản</label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+            <p>Quên mật khẩu? <a href="">Bấm vào đây</a></p>
+            <p>Bạn chưa có tài khoản? <a href="">Tạo 1 tài khoản mới</a></p>
+        </form>
+    </div>
+    <!-------- login form ends ----------->
+     
+    <!-------- container start ----------->
+    <div class="nhalanhdaotuonglai">
+        <div class="firstlayout">
+            <div class="leftlayout">
+                <a href=""><img style="width: 70%" src="./image/book1.jpg" alt=""></a>
+            </div>
+            <div class="rightlayout">
+                <div class="headerright">
+                    <a href=""><h2>Nhà Lãnh Đạo Tương Lai (Tái bản 2023)</h2></a>
+                </div>
+                <div class="right">
+                    <div class="right1">
+                        <div class="right1-1">
+                            <div class="nhacungcap">
+                                <p>Nhà cung cấp: </p>
+                                <p style="color: #2489F4;">Saigon Books</p>
+                            </div>
+                            <div class="nhaxuatban">
+                                <p>Nhà xuất bản: </p>
+                                <p style="color: red;">Thế Giới</p>
+                            </div>
+                        </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">50.000đ <span>100.000đ</span></div>
+                        <div class="thoigiangiaohang">
+                            <p>Thời gian giao hàng: </p>
+                            <p>Giao hàng đến </p>
+                            <p style="color: #2489F4;">Xem thêm</p>
+                        </div>
+                        <div class="chinhsachdoitra">
+                            <p>Chính sách đổi trả: </p>
+                            <p>Đổi trả sản phẩm trong 30 ngày</p>
+                            <p style="color: #2489F4;">Xem thêm</p>
+                        </div>
+                        <div class="soluong">
+                            <label for="quantity" style="font-size: 2.2rem; padding-right: 20px; padding-top: 7px; font-family: 'Times New Roman', Times, serif;">Số lượng:</label>
+                            <div class="quantity-input">
+                                <button class="decrement">-</button>
+                                <input type="number" id="quantity" name="quantity" min="1" max="100" value="1">
+                                <button class="increment">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right2">
+                        <div class="tacgia">
+                            <p>Tác giả: </p>
+                            <p style="color: green;">Jacob Morgan</p>
+                        </div>
+                        <div class="hinhthucbia">
+                            <p>Hình thức bìa: </p>
+                            <p style="color: purple;">Bìa mềm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="secondlayout">
+            <section class="featured" id="featured">
+
+                <div class="heading"><span>Giới thiệu thêm sách</span></div>
+        
+                <div class="swiper featured-slider">
+                    <div class="swiper-wrapper">
+        
+                        <div class="swiper-slide box">
+                            <div class="icons">
+                                <a href="" class="fas fa-search"></a>
+                                <a href="" class="fas fa-heart"></a>
+                                <a href="" class="fas fa-eye"></a>
+                            </div>
+        
+                            <div class="image">
+                                <img src="./image/book2.jpg" alt="">
+                            </div>
+        
+                            <div class="content">
+                                <h3>Trải nghiệm khách hàng xuất sắc</h3>
+                                <div class="price">55.000 <span>100.000</span></div>
+                                <a href="" class="btn">Thêm vào giỏ hàng</a>
+                            </div>
+                        </div>
+        
+                        <div class="swiper-slide box">
+                            <div class="icons">
+                                <a href="" class="fas fa-search"></a>
+                                <a href="" class="fas fa-heart"></a>
+                                <a href="" class="fas fa-eye"></a>
+                            </div>
+        
+                            <div class="image">
+                                <img src="./image/book3.jpg" alt="">
+                            </div>
+        
+                            <div class="content">
+                                <h3>Jack Welch & 11 chuẩn mực điều hành của nhà lãnh đạo</h3>
+                                <div class="price">60.000 <span>100.000</span></div>
+                                <a href="" class="btn">Thêm vào giỏ hàng</a>
+                            </div>
+                        </div>
+        
+                        <div class="swiper-slide box">
+                            <div class="icons">
+                                <a href="" class="fas fa-search"></a>
+                                <a href="" class="fas fa-heart"></a>
+                                <a href="" class="fas fa-eye"></a>
+                            </div>
+        
+                            <div class="image">
+                                <img src="./image/book4.jpg" alt="">
+                            </div>
+        
+                            <div class="content">
+                                <h3>Bí quyết hội họa - luyện vẽ hình khối</h3>
+                                <div class="price">70.000 <span>100.000</span></div>
+                                <a href="" class="btn">Thêm vào giỏ hàng</a>
+                            </div>
+                        </div>
+        
+                        <div class="swiper-slide box">
+                            <div class="icons">
+                                <a href="" class="fas fa-search"></a>
+                                <a href="" class="fas fa-heart"></a>
+                                <a href="" class="fas fa-eye"></a>
+                            </div>
+        
+                            <div class="image">
+                                <img src="./image/book5.jpg" alt="">
+                            </div>
+        
+                            <div class="content">
+                                <h3>The One memory of Flora banks</h3>
+                                <div class="price">45.000 <span>100.000</span></div>
+                                <a href="" class="btn">Thêm vào giỏ hàng</a>
+                            </div>
+                        </div>
+        
+                        <div class="swiper-slide box">
+                            <div class="icons">
+                                <a href="" class="fas fa-search"></a>
+                                <a href="" class="fas fa-heart"></a>
+                                <a href="" class="fas fa-eye"></a>
+                            </div>
+        
+                            <div class="image">
+                                <img src="./image/book6.jpg" alt="">
+                            </div>
+        
+                            <div class="content">
+                                <h3>Việt Nam miền ngon</h3>
+                                <div class="price">105.000 <span>200.000</span></div>
+                                <a href="" class="btn">Thêm vào giỏ hàng</a>
+                            </div>
+                        </div>
+        
+                        <div class="swiper-slide box">
+                            <div class="icons">
+                                <a href="" class="fas fa-search"></a>
+                                <a href="" class="fas fa-heart"></a>
+                                <a href="" class="fas fa-eye"></a>
+                            </div>
+        
+                            <div class="image">
+                                <img src="./image/book7.jpg" alt="">
+                            </div>
+        
+                            <div class="content">
+                                <h3>Nước Mỹ rộng lớn - Hạnh phúc giản đơn</h3>
+                                <div class="price">150.000 <span>200.000</span></div>
+                                <a href="" class="btn">Thêm vào giỏ hàng</a>
+                            </div>
+                        </div>
+        
+                        <div class="swiper-slide box">
+                            <div class="icons">
+                                <a href="" class="fas fa-search"></a>
+                                <a href="" class="fas fa-heart"></a>
+                                <a href="" class="fas fa-eye"></a>
+                            </div>
+        
+                            <div class="image">
+                                <img src="./image/book8.jpg" alt="">
+                            </div>
+        
+                            <div class="content">
+                                <h3>Santa sound book</h3>
+                                <div class="price">67.000 <span>120.000</span></div>
+                                <a href="" class="btn">Thêm vào giỏ hàng</a>
+                            </div>
+                        </div>
+        
+                        <div class="swiper-slide box">
+                            <div class="icons">
+                                <a href="" class="fas fa-search"></a>
+                                <a href="" class="fas fa-heart"></a>
+                                <a href="" class="fas fa-eye"></a>
+                            </div>
+        
+                            <div class="image">
+                                <img src="./image/book9.jpg" alt="">
+                            </div>
+        
+                            <div class="content">
+                                <h3>Chào Juice!</h3>
+                                <div class="price">55.000 <span>100.000</span></div>
+                                <a href="" class="btn">Thêm vào giỏ hàng</a>
+                            </div>
+                        </div>
+        
+                        <div class="swiper-slide box">
+                            <div class="icons">
+                                <a href="" class="fas fa-search"></a>
+                                <a href="" class="fas fa-heart"></a>
+                                <a href="" class="fas fa-eye"></a>
+                            </div>
+        
+                            <div class="image">
+                                <img src="./image/book10.jpg" alt="">
+                            </div>
+        
+                            <div class="content">
+                                <h3>Rất thần thái Paris</h3>
+                                <div class="price">80.000 <span>170.000</span></div>
+                                <a href="" class="btn">Thêm vào giỏ hàng</a>
+                            </div>
+                        </div>
+        
+                        <div class="swiper-slide box">
+                            <div class="icons">
+                                <a href="" class="fas fa-search"></a>
+                                <a href="" class="fas fa-heart"></a>
+                                <a href="" class="fas fa-eye"></a>
+                            </div>
+        
+                            <div class="image">
+                                <img src="./image/book11.jpg" alt="">
+                            </div>
+        
+                            <div class="content">
+                                <h3>Tư duy hình ảnh</h3>
+                                <div class="price">90.000 <span>150.000</span></div>
+                                <a href="" class="btn">Thêm vào giỏ hàng</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </section>
+        </div>
+        <div class="thirdlayout">
+            <div class="headerthird">
+                <h2 style="color: black; font-size: 4rem;">Thông tin sản phẩm</h2>
+            </div>
+            <div class="toplayout">
+                <table class="info-table">
+                    <tr>
+                        <th style="width: 25%;">Thông tin</th>
+                        <th style="width: 75%;">Giá trị</th>
+                    </tr>
+                    <tr>
+                        <td style="color: gray; padding-right: 20px;">Mã hàng</td>
+                        <td style="color: black;">8935278608226</td>
+                    </tr>
+                    <tr>
+                        <td style="color: gray;">Tên Nhà Cung Cấp</td>
+                        <td style="color: black;">Saigon Books</td>
+                    </tr>
+                    <tr>
+                        <td style="color: gray;">Tác giả</td>
+                        <td style="color: black;">Jacob Morgan</td>
+                    </tr>
+                    <tr>
+                        <td style="color: gray;">Người Dịch</td>
+                        <td style="color: black;">Vương Bảo Long</td>
+                    </tr>
+                    <tr>
+                        <td style="color: gray;">NXB</td>
+                        <td style="color: black;">Thế Giới</td>
+                    </tr>
+                    <tr>
+                        <td style="color: gray;">Năm XB</td>
+                        <td style="color: black;">2023</td>
+                    </tr>
+                    <tr>
+                        <td style="color: gray;">Ngôn Ngữ</td>
+                        <td style="color: black;">Tiếng Việt</td>
+                    </tr>
+                    <tr>
+                        <td style="color: gray;">Trọng lượng (gr)</td>
+                        <td style="color: black;">400</td>
+                    </tr>
+                    <tr>
+                        <td style="color: gray;">Kích Thước Bao Bì</td>
+                        <td style="color: black;">23.5 x 15.5 x 1.9 cm</td>
+                    </tr>
+                    <tr>
+                        <td style="color: gray;">Số trang</td>
+                        <td style="color: black;">384</td>
+                    </tr>
+                    <tr>
+                        <td style="color: gray;">Hình thức</td>
+                        <td style="color: black;">Bìa Mềm</td>
+                    </tr>
+                    <tr>
+                        <td style="color: gray;">Sản phẩm bán chạy nhất</td>
+                        <td style="color: #2489F4;">Top 10 sản phẩm bán chạy nhất tháng</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="bottomlayout">
+                <div class="onelayout">
+                    <h3 style="font-size: 2.2rem; color: black; font-family: Arial, Helvetica, sans-serif; padding-bottom: 20px;">Nhà Lãnh Đạo Tương Lai</h3>
+                    <p style="font-size: 2.2rem; color: rgb(93, 90, 90); font-family: Arial, Helvetica, sans-serif; padding-bottom: 20px; line-height: 30px;">Trong tiểu thuyết The Sun Also Rises (Mặt trời vẫn mọc) của Ernest Hemingway, có đoạn thoại thế này: “‘Thế làm sao mà anh phá sản?’, Bill hỏi. ‘Bằng hai cách thôi. Nó đến từ từ; và rồi đùng một cái, tôi trắng tay!’, Mike đáp.”</p>
+                </div>
+                <div class="twolayout">
+                    <h3 style="font-size: 2.2rem; color: black; font-family: Arial, Helvetica, sans-serif; padding-bottom: 20px;">NHÀ LÃNH ĐẠO TƯƠNG LAI: TẦM NHÌN 10 NĂM VÀ HƠN THẾ NỮA</h3>
+                    <div class="nd1" style="font-size: 2.2rem; color: rgb(93, 90, 90); font-family: Arial, Helvetica, sans-serif; padding-bottom: 10px; line-height: 10px;">
+                        <p style="font-size: 2.2rem; color: rgb(93, 90, 90); font-family: Arial, Helvetica, sans-serif; padding-bottom: 10px; line-height: 30px;"> Dường như thế giới kinh doanh đang ngày càng tràn ngập những ý tưởng và chiến lược lãnh đạo mới. Trong khi một vài trong số đó tạo ra được các nhà lãnh đạo xuất sắc, vẫn còn rất nhiều việc phải làm và mọi thứ đang thay đổi rất nhanh! </p> <br>
+
+                        <p style="font-size: 2.2rem; color: rgb(93, 90, 90); font-family: Arial, Helvetica, sans-serif; padding-bottom: 10px; line-height: 30px;"> Chẳng hạn, trong thập niên vừa qua, người ta nói rằng các nhà lãnh đạo thường xuyên bị ám ảnh bởi giá cả chứng khoán, các nỗ lực đa dạng hóa và mọi giải pháp hướng đến sự toàn diện vẫn còn rất non trẻ, công nghệ (đặc biệt là trí tuệ nhân tạo) không là gì cả so với sự tiên tiến và thay đổi như vũ bão của chính nó ngày hôm nay, hệ thống thứ bậc trong cơ cấu quản lý bị thách thức mãnh liệt nhưng chưa tới mức độ như chúng ta thấy bây giờ, các nền tảng truyền thông xã hội chỉ mới manh nha, iPhone hầu như chưa phổ biến và cụm từ “trải nghiệm nhân viên” còn rất xa lạ, “mục đích” và “tác động” là những khái niệm không được xem trọng, lực lượng lao động chưa phân bố rộng rãi và đa dạng như hiện nay, chủ nghĩa ngắn hạn là ý tưởng phổ biến và phương thức làm việc từ xa (remote-work) hay làm việc từ nhà (work-from-home) không được mấy người hưởng ứng, chưa kể chúng ta từng chịu tác động ghê gớm từ cuộc khủng hoảng tài chính thế giới năm 2008. Tuy nhiên, đó đã là chuyện của 10 năm về trước. </p> <br>
+                        
+                        <p style="font-size: 2.2rem; color: rgb(93, 90, 90); font-family: Arial, Helvetica, sans-serif; padding-bottom: 10px; line-height: 30px;"> Hầu hết chúng ta đều không nhận ra rằng mọi thứ đã thay đổi sâu sắc đến thế nào trong thập kỷ qua vì chúng ta đang sống trong nó, có thể nói như thế. Hãy tưởng tượng rằng bạn lên một chuyến tàu hỏa xuyên lục địa với hành trình kéo dài 10 năm. Suốt chuyến đi, mọi thứ trên tàu không thay đổi, công nghệ vẫn như cũ, y phục của mọi người vẫn thế – không có gì thay đổi cả! Rồi 10 năm qua đi và bạn tới đích. Bước xuống tàu, bạn không còn nhận ra thế giới xung quanh nữa. Tổ chức của chúng ta cũng ở trong một chuyến đi dài như thế. Nếu không dừng lại ở bất cứ ga nào trên hành trình để quan sát thế giới xung quanh, chúng ta sẽ không bao giờ biết được nó đang thay đổi ra sao, để rồi đến một ngày chúng ta bỗng sẽ thấy mình ở tại một nơi hoàn toàn xa lạ. </p> <br>
+                    </div>
+                    <h3 style="font-size: 2.2rem; color: black; font-family: Arial, Helvetica, sans-serif; padding-bottom: 20px;">LÀ MỘT NHÀ LÃNH ĐẠO TƯƠNG LAI, ĐÂY CHÍNH LÀ LÚC BƯỚC RA KHỎI CHUYẾN TÀU VẠN DẶM CỦA BẠN!</h3>
+                    <div class="nd1" style="font-size: 2.2rem; color: rgb(93, 90, 90); font-family: Arial, Helvetica, sans-serif; padding-bottom: 10px; ">
+                        <p style="font-size: 2.2rem; color: rgb(93, 90, 90); font-family: Arial, Helvetica, sans-serif; padding-bottom: 10px; line-height: 30px;"></p>Bạn có muốn mình giống như Mike trong tiểu thuyết Mặt trời vẫn mọc không? Bạn có muốn doanh nghiệp của mình từ từ lún sâu xuống vũng bùn khánh kiệt, còn bạn thì gặm nhấm sự thất bại dai dẳng?</p> <br>
+
+                        <p style="font-size: 2.2rem; color: rgb(93, 90, 90); font-family: Arial, Helvetica, sans-serif; padding-bottom: 10px; line-height: 30px;"></p>Nếu nhìn từ bên ngoài, bạn sẽ nhanh chóng nhận ra rằng thuật lãnh đạo mười năm trước không giống thuật lãnh đạo hôm nay và quan trọng hơn, cách lãnh đạo hôm nay cũng không phải là cách lãnh đạo phù hợp với mười năm tới. Thế giới đổi thay từng ngày, nên bạn cũng cần phải thay đổi! Hãy cùng bắt đầu sự thay đổi đó bằng quyển sách Nhà lãnh đạo tương lai của tác giả Jacob Morgan!</p> <br>
+                        
+                        <p style="font-size: 2.2rem; color: rgb(93, 90, 90); font-family: Arial, Helvetica, sans-serif; padding-bottom: 10px; line-height: 30px;"></p>Nhà lãnh đạo tương lai là những kết luận và gợi ý của Jacob Morgan dựa trên cuộc phỏng vấn 140 CEO, đại diện cho 7 triệu người từ 35 ngành nghề và 20 quốc gia trên thế giới cũng như những đánh giá của 140.000 người trên mạng xã hội LinkedIn về lãnh đạo của mình.</p> <br>
+                        
+                        <p style="font-size: 2.2rem; color: rgb(93, 90, 90); font-family: Arial, Helvetica, sans-serif; padding-bottom: 10px; line-height: 30px;"></p>Nhà lãnh đạo tương lai gồm năm phần, mỗi phần có một số chương, bao gồm các nội dung và yêu cầu cốt lõi đối với các nhà lãnh đạo tương lai:</p> <br>
+                        
+                        <p style="font-size: 2.2rem; color: rgb(93, 90, 90); font-family: Arial, Helvetica, sans-serif; padding-bottom: 10px; line-height: 30px;"></p>Ở Phần I, Jacob Morgan định nghĩa về lãnh đạo.</p> <br>
+                        
+                        <p style="font-size: 2.2rem; color: rgb(93, 90, 90); font-family: Arial, Helvetica, sans-serif; padding-bottom: 10px; line-height: 30px;"></p>Phần II tập trung vào các xu hướng định hình tương lai lãnh đạo cùng các hàm ý về các xu hướng của lãnh đạo tương lai. Phần này cũng chỉ ra những thách thức lớn nhất mà các nhà lãnh đạo tương lai sẽ phải đối mặt.</p> <br>
+                        
+                        <p style="font-size: 2.2rem; color: rgb(93, 90, 90); font-family: Arial, Helvetica, sans-serif; padding-bottom: 10px; line-height: 30px;"></p>Phần III bàn về các kiểu mô thức tư duy thiết yếu nhất mà các nhà lãnh đạo tương lai cần sở hữu để dẫn dắt đội ngũ một cách hiệu quả.</p> <br>
+                        
+                        <p style="font-size: 2.2rem; color: rgb(93, 90, 90); font-family: Arial, Helvetica, sans-serif; padding-bottom: 10px; line-height: 30px;"></p>Phần IV chỉ ra các kỹ năng nhà lãnh đạo tương lai cần có và những vấn đề cụ thể họ cần nắm rõ để thực hiện đúng.</p><br>
+                        
+                        <p style="font-size: 2.2rem; color: rgb(93, 90, 90); font-family: Arial, Helvetica, sans-serif; padding-bottom: 10px; line-height: 30px;"></p>Phần V đề xuất cách trở thành nhà lãnh đạo tương lai xuất sắc và bạn nên bắt đầu từ đâu.</p> <br>
+                        
+                        <p style="font-size: 2.2rem; color: rgb(93, 90, 90); font-family: Arial, Helvetica, sans-serif; padding-bottom: 10px; line-height: 30px;"></p>Bên cạnh đó, một phần quan trọng nhất của cuốn sách giới thiệu một mô hình lãnh đạo gọi là Bộ Chín Lừng Danh (The Notable Nine) gồm 4 mô thức tư duy và 5 kỹ năng. Sử dụng nhuần nhuyễn Bộ Chín Lừng Danh này “giúp bạn trở thành nhà lãnh đạo rất sẵn sàng cho tương lai, có khả năng thích nghi với mọi hoàn cảnh mới và gia tăng giá trị bản thân bội phần trong bất kỳ tổ chức nào” – như Jacob Morgan khẳng định.</p> <br>
+                        
+                        <p style="font-size: 2.2rem; color: rgb(93, 90, 90); font-family: Arial, Helvetica, sans-serif; padding-bottom: 10px; line-height: 30px;"></p>Các nhà lãnh đạo sở hữu những kỹ năng và mô thức tư duy trong quyển sách này và giúp người khác làm được điều tương tự đều nhận ra rằng chúng không chỉ giúp kiến tạo tổ chức thành nơi mọi nhân viên đều muốn bước vào làm việc và cống hiến mỗi ngày, mà nó còn giúp xây dựng một thế giới mà tất cả chúng ta đều tự hào được sống trong nó và tận hưởng nó. Đây là lúc bước ra khỏi chuyến tàu vạn dặm của bạn.</p> <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------- container ends ----------->
+    <section class="footer" id="contactus">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Địa chỉ</h3>
+                <a href=""><i class="fas fa-map-marker-alt"></i>
+                <br>Trường Đại học Phenikaa</br>
+                P. Nguyễn Trác, Yên Nghĩa, Hà Đông, Hà Nội
+                </a>
+            </div>
+
+            <div class="box">
+                <h3>Kết nối nhanh</h3>
+                <a href=""><i class="fas fa-arrow-right"></i>Trang chủ</a>
+                <a href=""><i class="fas fa-arrow-right"></i>Sách nổi bật</a>
+                <a href=""><i class="fas fa-arrow-right"></i>Hàng mới về</a>
+                <a href=""><i class="fas fa-arrow-right"></i>reviews</a>
+                <a href=""><i class="fas fa-arrow-right"></i>blogs</a>
+                <a href=""><i class="fas fa-arrow-right"></i>liên hệ</a>
+            </div>
+
+            <div class="box">
+                <h3>kết nối đi kèm</h3>
+                <a href=""><i class="fas fa-arrow-right"></i>thông tin tài khoản</a>
+                <a href=""><i class="fas fa-arrow-right"></i>mặt hàng đã đặt</a>
+                <a href=""><i class="fas fa-arrow-right"></i>chính sách quyền riêng tư</a>
+                <a href=""><i class="fas fa-arrow-right"></i>phương thức thanh toán</a>
+                <a href=""><i class="fas fa-arrow-right"></i>dịch vụ của chúng tôi</a>
+            </div>
+
+
+            <div class="box">
+                <h3>Liên hệ với chúng tôi</h3>
+                <a href=""><i class="fas fa-phone"></i>+84 956 789 555</a>
+                <a href=""><i class="fas fa-phone"></i>+84 765 901 223</a>
+                <a href=""><i class="fas fa-envelope"></i>sunflowerbookly@gmail.com</a>
+                <img src="./image/worldmap.jpg" alt="" class="map">
+            </div>
+        </div>
+
+        <div class="share">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href=""><i class="fab fa-pinterest"></i></a>
+        </div>
+
+        <div class="credit">create by <span>Nhom 4: Giang+Linh</span> | all rights reserved</div>
+
+    </section>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+</body>
+</html>

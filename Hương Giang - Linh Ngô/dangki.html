@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dangki.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Đăng kí</title>
+</head>
+<body>
+    <header class="header">
+
+        <div class="header-1">
+
+            <a href="sunflowerbookly.HTML" class="logo"><i class="fas fa-book"> Sunflower Bookly</i></a>
+
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="Tìm kiếm tại đây..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="" class="fas fa-heart"></a>
+                <a href="giohang.html" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+
+        </div>
+
+        <div class="header-2">
+
+            <div class="navbar">
+                <a href="#home"><a href="sunflowerbookly.HTML">Trang chủ</a></a>
+                <a href="#featured">Sách nổi bật</a>
+                <a href="#arrivals">Hàng mới về</a>
+                <a href="#reviews">reviews</a>
+                <a href="#blogs">blogs</a>
+                <a href="#contactus">Liên hệ</a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <!--------- header section ends ------------>
+
+    <!--------- bottom navbar  ------------>
+
+    <div class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="#reviews" class="fas fa-comments"></a>
+        <a href="#blogs" class="fas fa-app-store"></a>
+        <a href="#contactus" class="fas fa-contactus"></a>
+    </div>
+
+
+    <!-------- bottom navbar start ----------->
+
+    <div class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="#reviews" class="fas fa-comments"></a>
+        <a href="#blogs" class="fas fa-app-store"></a>
+        <a href="#contactus" class="fas fa-contactus"></a>
+    </div>
+
+
+    <!-------- bottom navbar ends ----------->
+
+     <!-------- login form start ----------->
+
+   
+     <div class="login-form-container">
+
+        <div id="close-login-btn" class="fas fa-times"></div>
+
+        <form action="">
+            <h3>Đăng nhập</h3>
+            <span>Email</span>
+            <input type="email" name="" class="box"  placeholder="Hãy nhập Email của bạn">
+            <span>Mật Khẩu</span>
+            <input type="password" name="" class="box"  placeholder="Hãy nhập Mật khẩu của bạn">
+
+            <div class="check-box">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">Nhớ tài khoản</label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+            <p>Quên mật khẩu? <a href="">Bấm vào đây</a></p>
+            <p>Bạn chưa có tài khoản? <a href="dangki.html">Tạo 1 tài khoản mới</a></p>
+        </form>
+    </div>
+    <!-------- login form ends ----------->
+    <div class="form">
+        <div class="registration-form">
+            <form action="process_registration.php" method="POST">
+                <table>
+                    <tr>
+                        <td><label for="full-name">Họ và tên:</label></td>
+                        <td><input type="text" id="full-name" name="full-name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Số điện thoại:</label></td>
+                        <td><input type="tel" id="phone" name="phone" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dob">Ngày sinh:</label></td>
+                        <td><input type="date" id="dob" name="dob" style="font-size: 2.5rem; font-family: 'Times New Roman', Times, serif; padding: 10px; padding-left: 72px; padding-right: 72px; border: 1px solid #ccc; border-radius: 5px;" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Giới tính:</label></td>
+                        <td>
+                            <select id="gender" name="gender" class="gender" style="font-size: 2.5rem; text-align: center; font-family: 'Times New Roman', Times, serif;" required>
+                                <option value="nam">Nam</option>
+                                <option value="nữ">Nữ</option>
+                                <option value="khac">Khác</option>
+                            </select>                        
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Mật khẩu:</label></td>
+                        <td><input type="password" id="password" name="password" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="region" class="input-label">Tỉnh/Thành phố: </label></td>
+                        <td>
+                            <select required>
+                                <option value>Chọn Tỉnh/Thành phố</option>
+                                <option value="Hồ Chí Minh">Hồ Chí Minh</option>
+                                <option value="Hà Nội">Hà Nội</option>
+                                <option value="Đà Nẵng">Đà Nẵng</option>
+                                <option value="An Giang">An Giang</option>
+                                <option value="Bà Rịa - Vũng Tàu">Bà Rịa - Vũng Tàu</option>
+                                <option value="Bắc Giang">Bắc Giang</option>
+                                <option value="Bắc Kạn">Bắc Kạn</option>
+                                <option value="Bạc Liêu">Bạc Liêu</option>
+                                <option value="Bắc Ninh">Bắc Ninh</option>
+                                <option value="Bến Tre">Bến Tre</option>
+                                <option value="Bình Dương">Bình Dương</option>
+                                <option value="Bình Phước">Bình Phước</option>
+                                <option value="Bình Thuận">Bình Thuận</option>
+                                <option value="Bình Định">Bình Định</option>
+                                <option value="Cà Mau">Cà Mau</option>
+                                <option value="Cần Thơ">Cần Thơ</option>
+                                <option value="Cao Bằng">Cao Bằng</option>
+                                <option value="Gia Lai">Gia Lai</option>
+                                <option value="Hà Giang">Hà Giang</option>
+                                <option value="Hà Nam">Hà Nam</option>
+                                <option value="Hà Tĩnh">Hà Tĩnh</option>
+                                <option value="Hải Dương">Hải Dương</option>
+                                <option value="Hải Phòng">Hải Phòng</option>
+                                <option value="Hậu Giang">Hậu Giang</option>
+                                <option value="Hòa Bình">Hòa Bình</option>
+                                <option value="Hưng Yên">Hưng Yên</option>
+                                <option value="Khánh Hòa">Khánh Hòa</option>
+                                <option value="Kiên Giang">Kiên Giang</option>
+                                <option value="Kon Tum">Kon Tum</option>
+                                <option value="Lai Châu">Lai Châu</option>
+                                <option value="Lâm Đồng">Lâm Đồng</option>
+                                <option value="Lạng Sơn">Lạng Sơn</option>
+                                <option value="Lào Cai">Lào Cai</option>
+                                <option value="Long An">Long An</option>
+                                <option value="Nam Định">Nam Định</option>
+                                <option value="Nghệ An">Nghệ An</option>
+                                <option value="Ninh Bình">Ninh Bình</option>
+                                <option value="Ninh Thuận">Ninh Thuận</option>
+                                <option value="Phú Thọ">Phú Thọ</option>
+                                <option value="Phú Yên">Phú Yên</option>
+                                <option value="Quảng Bình">Quảng Bình</option>
+                                <option value="Quảng Nam">Quảng Nam</option>
+                                <option value="Quảng Ngãi">Quảng Ngãi</option>
+                                <option value="Quảng Ninh">Quảng Ninh</option>
+                                <option value="Quảng Trị">Quảng Trị</option>
+                                <option value="Sóc Trăng">Sóc Trăng</option>
+                                <option value="Sơn La">Sơn La</option>
+                                <option value="Tây Ninh">Tây Ninh</option>
+                                <option value="Thái Bình">Thái Bình</option>
+                                <option value="Thái Nguyên">Thái Nguyên</option>
+                                <option value="Thanh Hóa">Thanh Hóa</option>
+                                <option value="Thừa Thiên Huế">Thừa Thiên Huế</option>
+                                <option value="Tiền Giang">Tiền Giang</option>
+                                <option value="Trà Vinh">Trà Vinh</option>
+                                <option value="Tuyên Quang">Tuyên Quang</option>
+                                <option value="Vĩnh Long">Vĩnh Long</option>
+                                <option value="Vĩnh Phúc">Vĩnh Phúc</option>
+                                <option value="Yên Bái">Yên Bái</option>
+                                <option value="Đắk Lắk">Đắk Lắk</option>
+                                <option value="Đắk Nông">Đắk Nông</option>
+                                <option value="Điện Biên">Điện Biên</option>
+                                <option value="Đồng Nai">Đồng Nai</option>
+                                <option value="Đồng Tháp">Đồng Tháp</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="district" class="input-label">Quận Huyện: </label></td>
+                        <td>
+                            <select required>
+                                <option value>Chọn Quận/Huyện</option>
+                                <option value="Quận Ba Đình">Quận Ba Đình</option>
+                                <option value="Quận Hoàn Kiếm">Quận Hoàn Kiếm</option>
+                                <option value="Quận Hai Bà Trưng">Quận Hai Bà Trưng</option>
+                                <option value="Quận Đống Đa">Quận Đống Đa</option>
+                                <option value="Quận Cầu giấy">Quận Cầu giấy</option>
+                                <option value="Quận Long Biên">Quận Long Biên</option>
+                                <option value="Quận Hoàng Mai">Quận Hoàng Mai</option>
+                                <option value="Huyện Sóc Sơn">Huyện Sóc Sơn</option>
+                                <option value="Quận Bắc Từ Liêm">Quận Bắc Từ Liêm</option>
+                                <option value="Huyện Thanh Trì">Huyện Thanh Trì</option>
+                                <option value="Huyện Gia Lâm">Huyện Gia Lâm</option>
+                                <option value="Huyện Ba Vì">Huyện Ba Vì</option>
+                                <option value="Huyện Chương Mỹ">Huyện Chương Mỹ</option>
+                                <option value="Huyện Đan Phượng">Huyện Đan Phượng</option>
+                                <option value="Huyện Hoài Đức">Huyện Hoài Đức</option>
+                                <option value="Huyện Mỹ Đức">Huyện Mỹ Đức</option>
+                                <option value="Huyện Phú Xuyên">Huyện Phú Xuyên</option>
+                                <option value="Huyện Phúc Thọ">Huyện Phúc Thọ</option>
+                                <option value="Huyện Quốc Oai">Huyện Quốc Oai</option>
+                                <option value="Huyện Thạch Thất">Huyện Thạch Thất</option>
+                                <option value="Huyện Thanh Oai">Huyện Thanh Oai</option>
+                                <option value="Huyện Thường Tín">Huyện Thường Tín</option>
+                                <option value="Huyện Ứng Hòa">Huyện Ứng Hòa</option>
+                                <option value="Huyện Mê Linh">Huyện Mê Linh</option>
+                                <option value="Quận Hà Đông">Quận Hà Đông</option>
+                                <option value="Thị xã Sơn Tây">Thị xã Sơn Tây</option>
+                                <option value="Huyện Đông Anh">Huyện Đông Anh</option>
+                                <option value="Quận Nam Từ Liêm">Quận Nam Từ Liêm</option>
+                                <option value="Quận Thanh Xuân">Quận Thanh Xuân</option>
+                                <option value="Quận Tây Hồ">Quận Tây Hồ</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="ward" class="input-label">Phường xã: </label></td>
+                        <td>
+                            <select required>
+                                <option value>Chọn Phường/Xã</option>
+                                <option value="Phường Biên Giang">P.Biên Giang</option>
+                                <option value="Phường Đồng Mai">P.Đồng Mai</option>
+                                <option value="Phường Yên Nghĩa">P.Yên Nghĩa</option>
+                                <option value="Phường Dương Nội">P.Dương Nội</option>
+                                <option value="Phường Hà Cầu">P.Hà Cầu</option>
+                                <option value="Phường La Khê">P.La Khê</option>
+                                <option value="Phường Mộ Lao">P.Mộ Lao</option>
+                                <option value="Phường Nguyễn Trãi">P.Nguyễn Trãi</option>
+                                <option value="Phường Phú La">P.Phú La</option>
+                                <option value="Phường Phú Lãm">P.Phú Lãm</option>
+                                <option value="Phường Phú Lương">P.Phú Lương</option>
+                                <option value="Phường Kiến Hưng">P.Kiến Hưng</option>
+                                <option value="Phường Phúc La">P.Phúc La</option>
+                                <option value="Phường Quang Trung">P.Quang Trung</option>
+                                <option value="Phường Vạn Phúc">P.Vạn Phúc</option>
+                                <option value="Phường Văn Quán">P.Văn Quán</option>
+                                <option value="Phường Yết Kiêu">P.Yết Kiêu</option>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="myaddress" class="input-label">Địa chỉ: </label></td>
+                        <td>
+                            <div>
+                                <input type="street" name="street" rows="5" placeholder="Nhập địa chỉ" style="font-size: 2.5rem; font-family: 'Times New Roman', Times, serif; color: black; padding: 10px; border: 1px solid #ccc; border-radius: 5px;" required></input>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <button type="submit" style="color: white;"><a href="sunflowerbookly.HTML">Đăng ký</a></button>
+            </form>
+        </div>
+    </div>
+    
+
+    <section class="footer" id="contactus">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Địa chỉ</h3>
+                <a href=""><i class="fas fa-map-marker-alt"></i>
+                <br>Trường Đại học Phenikaa</br>
+                P. Nguyễn Trác, Yên Nghĩa, Hà Đông, Hà Nội
+                </a>
+            </div>
+
+            <div class="box">
+                <h3>Kết nối nhanh</h3>
+                <a href=""><i class="fas fa-arrow-right"></i>Trang chủ</a>
+                <a href=""><i class="fas fa-arrow-right"></i>Sách nổi bật</a>
+                <a href=""><i class="fas fa-arrow-right"></i>Hàng mới về</a>
+                <a href=""><i class="fas fa-arrow-right"></i>reviews</a>
+                <a href=""><i class="fas fa-arrow-right"></i>blogs</a>
+                <a href=""><i class="fas fa-arrow-right"></i>liên hệ</a>
+            </div>
+
+            <div class="box">
+                <h3>kết nối đi kèm</h3>
+                <a href=""><i class="fas fa-arrow-right"></i>thông tin tài khoản</a>
+                <a href=""><i class="fas fa-arrow-right"></i>mặt hàng đã đặt</a>
+                <a href=""><i class="fas fa-arrow-right"></i>chính sách quyền riêng tư</a>
+                <a href=""><i class="fas fa-arrow-right"></i>phương thức thanh toán</a>
+                <a href=""><i class="fas fa-arrow-right"></i>dịch vụ của chúng tôi</a>
+            </div>
+
+
+            <div class="box">
+                <h3><a href="lienhe.html">Liên hệ với chúng tôi</a></h3>
+                <a href=""><i class="fas fa-phone"></i>+84 956 789 555</a>
+                <a href=""><i class="fas fa-phone"></i>+84 765 901 223</a>
+                <a href=""><i class="fas fa-envelope"></i>sunflowerbookly@gmail.com</a>
+                <img src="./image/worldmap.jpg" alt="" class="map">
+            </div>
+        </div>
+
+        <div class="share">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href=""><i class="fab fa-pinterest"></i></a>
+        </div>
+
+        <div class="credit">create by <span>Nhom 4: Giang+Linh</span> | all rights reserved</div>
+
+    </section>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+</body>
+</html>

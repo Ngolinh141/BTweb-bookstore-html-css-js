@@ -531,6 +531,32 @@ section{
     color: var(--light-color);
     text-decoration: line-through;
 }
+.submit {
+    width: 200px;
+    padding-left: 45%;
+}
+button {
+    width: 200px;
+    margin: 0 auto;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    font-size: 2.5rem;
+}
+button a {
+    color: white;
+}
+
+button:hover {
+    background-color: orangered;
+    padding-left: 20px;
+}
 
 
 /*----- arrivals section --------*/

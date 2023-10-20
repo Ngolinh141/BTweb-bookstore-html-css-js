@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="giohang.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Giỏ hàng</title>
+</head>
+<body>
+    <header class="header">
+
+        <div class="header-1">
+
+            <a href="sunflowerbookly.HTML" class="logo"><i class="fas fa-book"> Sunflower Bookly</i></a>
+
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="Tìm kiếm tại đây..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="" class="fas fa-heart"></a>
+                <a href="giohang.html" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+
+        </div>
+
+        <div class="header-2">
+
+            <div class="navbar">
+                <a href="#home"><a href="sunflowerbookly.HTML">Trang chủ</a></a>
+                <a href="#featured">Sách nổi bật</a>
+                <a href="#arrivals">Hàng mới về</a>
+                <a href="#reviews">reviews</a>
+                <a href="#blogs">blogs</a>
+                <a href="#contactus">Liên hệ</a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <!--------- header section ends ------------>
+
+    <!--------- bottom navbar  ------------>
+
+    <div class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="#reviews" class="fas fa-comments"></a>
+        <a href="#blogs" class="fas fa-app-store"></a>
+        <a href="#contactus" class="fas fa-contactus"></a>
+    </div>
+
+
+    <!-------- bottom navbar start ----------->
+
+    <div class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="#reviews" class="fas fa-comments"></a>
+        <a href="#blogs" class="fas fa-app-store"></a>
+        <a href="#contactus" class="fas fa-contactus"></a>
+    </div>
+
+
+    <!-------- bottom navbar ends ----------->
+
+     <!-------- login form start ----------->
+
+   
+     <div class="login-form-container">
+
+        <div id="close-login-btn" class="fas fa-times"></div>
+
+        <form action="">
+            <h3>Đăng nhập</h3>
+            <span>Email</span>
+            <input type="email" name="" class="box"  placeholder="Hãy nhập Email của bạn">
+            <span>Mật Khẩu</span>
+            <input type="password" name="" class="box"  placeholder="Hãy nhập Mật khẩu của bạn">
+
+            <div class="check-box">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">Nhớ tài khoản</label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+            <p>Quên mật khẩu? <a href="">Bấm vào đây</a></p>
+            <p>Bạn chưa có tài khoản? <a href="dangki.html">Tạo 1 tài khoản mới</a></p>
+        </form>
+    </div>
+    <!-------- login form ends ----------->
+
+    <div class="giohang"><h2>Giỏ hàng</h2></div>
+
+    <div class="cart">
+        <ul class="cart-items">
+            <li class="cart-item">
+                <span class="item-img"><img src="./image/book3.jpg" alt=""></span>
+                <span class="item-name" style="padding: 180px 0px 150px;">Jack Welch & 11 chuẩn mực điều hành của nhà lãnh đạo</span>
+                <span class="item-price" style="padding: 200px 0px 150px;">60.000đ</span>
+                <div class="item-quantity">
+                    <button class="decrement">-</button>
+                    <span class="quantity">1</span>
+                    <button class="increment">+</button>
+                </div>
+            </li>
+            <li class="cart-item">
+                <span class="item-img"><img src="./image/arriver3.jpg" alt=""></span>
+                <span class="item-name" style="padding: 175px 0px 140px;">Đất rừng phương nam (tái bản)</span>
+                <span class="item-price" style="padding: 175px 0px 140px;">120.000đ</span>
+                <div class="item-quantity">
+                    <button class="decrement">-</button>
+                    <span class="quantity">1</span>
+                    <button class="increment">+</button>
+                </div>
+            </li>
+            <li class="cart-item">
+                <span class="item-img"><img src="./image/arriver4.jpg" alt=""></span>
+                <span class="item-name" style="padding: 195px 0px 140px;">Như mưa ngọt ngào</span>
+                <span class="item-price" style="padding: 195px 0px 140px;">160.000đ</span>
+                <div class="item-quantity">
+                    <button class="decrement">-</button>
+                    <span class="quantity">1</span>
+                    <button class="increment">+</button>
+                </div>
+            </li>
+        </ul>
+        <div class="cart-total">
+            <span>Tổng cộng:</span>
+            <span class="total-price">340.000đ</span>
+        </div>
+        <button type="submit" style="color: white;"><a href="">THANH TOÁN</a></button>
+    </div>
+
+    <section class="footer" id="contactus">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Địa chỉ</h3>
+                <a href=""><i class="fas fa-map-marker-alt"></i>
+                <br>Trường Đại học Phenikaa</br>
+                P. Nguyễn Trác, Yên Nghĩa, Hà Đông, Hà Nội
+                </a>
+            </div>
+
+            <div class="box">
+                <h3>Kết nối nhanh</h3>
+                <a href=""><i class="fas fa-arrow-right"></i>Trang chủ</a>
+                <a href=""><i class="fas fa-arrow-right"></i>Sách nổi bật</a>
+                <a href=""><i class="fas fa-arrow-right"></i>Hàng mới về</a>
+                <a href=""><i class="fas fa-arrow-right"></i>reviews</a>
+                <a href=""><i class="fas fa-arrow-right"></i>blogs</a>
+                <a href=""><i class="fas fa-arrow-right"></i>liên hệ</a>
+            </div>
+
+            <div class="box">
+                <h3>kết nối đi kèm</h3>
+                <a href=""><i class="fas fa-arrow-right"></i>thông tin tài khoản</a>
+                <a href=""><i class="fas fa-arrow-right"></i>mặt hàng đã đặt</a>
+                <a href=""><i class="fas fa-arrow-right"></i>chính sách quyền riêng tư</a>
+                <a href=""><i class="fas fa-arrow-right"></i>phương thức thanh toán</a>
+                <a href=""><i class="fas fa-arrow-right"></i>dịch vụ của chúng tôi</a>
+            </div>
+
+
+            <div class="box">
+                <h3><a href="lienhe.html">Liên hệ với chúng tôi</a></h3>
+                <a href=""><i class="fas fa-phone"></i>+84 956 789 555</a>
+                <a href=""><i class="fas fa-phone"></i>+84 765 901 223</a>
+                <a href=""><i class="fas fa-envelope"></i>sunflowerbookly@gmail.com</a>
+                <img src="./image/worldmap.jpg" alt="" class="map">
+            </div>
+        </div>
+
+        <div class="share">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href=""><i class="fab fa-pinterest"></i></a>
+        </div>
+
+        <div class="credit">create by <span>Nhom 4: Giang+Linh</span> | all rights reserved</div>
+
+    </section>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+</body>
+</html>
